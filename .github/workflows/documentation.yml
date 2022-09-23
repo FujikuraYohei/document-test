@@ -16,11 +16,11 @@ jobs:
         with:
           node-version: 18.x
           cache: npm
-      - name: Build document-test
-        working-directory: document-test
-        run: |
-          yarn install --frozen-lockfile
-          yarn build
+            #- name: Build document-test
+            #  working-directory: document-test
+            #  run: |
+            #    yarn install --frozen-lockfile
+            #    yarn build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
